@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Game Zone</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .welcome-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .welcome-title {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .welcome-description {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            background: #ff6b6b;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ee5253;
+        }
+
+        .btn:active {
+            background: #d63031;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="welcome-container">
+        <h1 class="welcome-title">Welcome to Game Zone!</h1>
+        <p class="welcome-description">
+            Get ready to embark on an exciting journey filled with challenges and fun. Choose your game and let the
+            adventure begin!
+        </p>
+        <a href="Balls/index.html" class="btn">Start Game</a>
+        <a href="#instructions" class="btn">How to Play</a>
+    </div>
+</body>
+
+</html>
